@@ -7,17 +7,10 @@ that it is correct, so say in your README what you have used it for.
 
 ## Check the maintained tools first
 
-Some processing is done by maintained ISMIP7 tools, which are tested and
-documented:
-
-- [ISM_SimulationChecker](https://github.com/ismip/ISM_SimulationChecker):
-  checks model output against the data request before submission
-- [ismip7-interpolation](https://github.com/ismip/ismip7-interpolation):
-  regrids model output onto the ISMIP7 grids
-- [ismip7-scalar-processing](https://github.com/ismip/ismip7-scalar-processing):
-  computes scalar time series, for whole ice sheets and IMBIE3 basins
-
-If one of them nearly does what you need, open an issue there. If your
+Some processing is already done by the
+[maintained ISMIP7 tools](README.md#maintained-tools), which are tested
+and documented. If one of them nearly does what you need, open an issue
+there. If your
 code should become part of one, open an issue there too, and share it
 here in the meantime.
 
